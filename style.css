@@ -131,7 +131,8 @@
 }
 
 /* Completed */
-#complete-tasks {
+#complete-tasks 
+.task-item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +142,13 @@
   display: none;
 }
 
-.todo-mode .task-item__input {
+.todo-mode 
+.task-item__input {
   display: inline-block;
   width: 224px;
 }
 
-.todo-mode .task-item__label {
+.todo-mode 
+.task-item__label {
   display: none;
 }
