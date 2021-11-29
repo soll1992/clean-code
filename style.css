@@ -87,7 +87,7 @@
 }
 
 /* New Task */
-.list-title:first-child {
+.add-list_title {
   display: block;
   margin: 0 0 20px;
 }
@@ -112,7 +112,7 @@
 .task-item__checkbox {
   margin: 0 10px;
 }
-.task-item__label {
+.task-item__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -132,7 +132,7 @@
 
 /* Completed */
 #complete-tasks 
-.task-item__label {
+.task-item__text {
   text-decoration: line-through;
   color: #888;
 }
@@ -149,6 +149,6 @@
 }
 
 .todo-mode 
-.task-item__label {
+.task-item__text {
   display: none;
 }
